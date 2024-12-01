@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Fan Zone</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a2e;
+      color: #fff;
+    }
+    header {
+      background: #e94560;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #16213e;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      padding: 10px 20px;
+    }
+    nav a:hover {
+      background: #e94560;
+      border-radius: 5px;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      margin: 20px 0;
+    }
+    section h2 {
+      color: #e94560;
+    }
+    .anime-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .anime-item {
+      background: #0f3460;
+      padding: 10px;
+      border-radius: 8px;
+      max-width: 200px;
+      text-align: center;
+    }
+    .anime-item img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #16213e;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anime Fan Zone</h1>
+    <p>Your one-stop site for anime lovers</p>
+  </header>
+  <nav>
+    <a href="#popular">Popular Anime</a>
+    <a href="#underrated">Underrated Anime</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#news">News</a>
+  </nav>
+  <main>
+    <section id="popular">
+      <h2>Popular Anime</h2>
+      <p>Explore trending anime that everyone is watching!</p>
+    </section>
+    <section id="underrated">
+      <h2>Underrated Anime</h2>
+      <p>Hidden gems that deserve more love from the anime community.</p>
+    </section>
+    <section id="gallery" class="anime-gallery">
+      <h2>Gallery</h2>
+      <div class="anime-item">
+        <img src="https://via.placeholder.com/200" alt="Anime 1">
+        <p>Anime Name 1</p>
+      </div>
+      <div class="anime-item">
+        <img src="https://via.placeholder.com/200" alt="Anime 2">
+        <p>Anime Name 2</p>
+      </div>
+      <div class="anime-item">
+        <img src="https://via.placeholder.com/200" alt="Anime 3">
+        <p>Anime Name 3</p>
+      </div>
+    </section>
+    <section id="news">
+      <h2>Latest News</h2>
+      <p>Stay updated with the latest anime releases and updates.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Anime Fan Zone. All Rights Reserved.</p>
+  </footer>
+</body>
+  </html>
+  
